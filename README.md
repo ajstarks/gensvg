@@ -130,21 +130,24 @@ If you want to sketch with an existing file, enter its URL:
 
 ## Package contents ##
 
-* gensvg.go:		Library
-* newsvg:		Coding template command
+* *.go:		Library
 * svgdef:	Creates a SVG representation of the API
-* animate:  Animation demo
 * am: Animate motion demo
 * amt: Animate transformation demo
 * android:	The Android logo
+* animate:  Animation demo
+* benchviz: visualize benchmarks
 * bubtrail: Bubble trails
 * bulletgraph:	Bullet Graphs (via Stephen Few)
+* cascade: animation on curves
+* codepic: show code and pictures together
 * colortab: Display SVG named colors with RGB values
 * compx:  Component diagrams
-* flower:	Random "flowers"
-* fontcompare:	Compare two fonts
+* cube: random cubes
 * f50:		Get 50 photos from Flickr based on a query
 * fe:	Filter effects
+* flower:	Random "flowers"
+* fontcompare:	Compare two fonts
 * funnel:	Funnel from transparent circles
 * gradient:	Linear and radial gradients
 * html5logo:	HTML5 logo with draggable elements
@@ -159,9 +162,12 @@ If you want to sketch with an existing file, enter its URL:
 * randcomp:	Compare random number generators
 * richter:	Gerhard Richter's 256 colors
 * rl:			Random lines (port of a Processing demo)
+* rpd: read/parse/draw
+* rr: radial graphs
 * skewabc:		Skew ABC
 * span:		Text span
 * stockproduct:	Visualize product and stock prices
+* svgdef: gensvg placemat
 * svgopher:	gensvg Mascot
 * svgplay: gensvg sketching server
 * svgplot:		Plot data
