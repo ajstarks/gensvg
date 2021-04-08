@@ -1,0 +1,3 @@
+BenchmarkComponent_Func1-8              3804            345522 ns/op         517.44 MB/s
+BenchmarkComponent_Func2-8               3750            302372 ns/op         657.30 MB/s
+BenchmarkComponent_Func3-8               2232            593357 ns/op        1508.42 MB/s
