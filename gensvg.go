@@ -29,7 +29,8 @@ import (
 	"io"
 )
 
-// SVG defines the location of the generated SVG
+// SVG defines the location of the generated SVG, and the numnber
+// of decimals on output
 type SVG struct {
 	Writer   io.Writer
 	Decimals int
