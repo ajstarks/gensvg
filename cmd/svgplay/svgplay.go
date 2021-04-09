@@ -270,12 +270,12 @@ import (
 	"github.com/ajstarks/gensvg"
 )
 
-func rn(n int) int { return rand.Intn(n) }
+func rn(n float64) float64 { return rand.Float64() * n }
 
 func main() {
-	canvas := svg.New(os.Stdout)
-	width := 500
-	height := 500
+	canvas := gensvg.New(os.Stdout)
+	width := 500.0
+	height := 500.0
 	nstars := 250
 	style := "font-size:48pt;fill:white;text-anchor:middle"
 	
